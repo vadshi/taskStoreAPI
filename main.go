@@ -16,7 +16,7 @@ https://github.com/golang-standards/project-layout/blob/master/README_ru.md
 package main
 
 import (
-	"TaskStoreAPI/internal/taskstore"
+	"github.com/vadshi/taskStoreAPI/internal/taskstore"
 	"encoding/json"
 	"log"
 	"mime"

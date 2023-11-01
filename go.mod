@@ -1,4 +1,4 @@
-module TaskStoreAPI
+module github.com/vadshi/taskStoreAPI
 
 go 1.20
 
