@@ -5,9 +5,10 @@ FROM golang:1.21
 # Set destination for COPY
 WORKDIR /app
 
+ADD . /app
 # Download Go modules
 COPY go.mod go.sum ./
-COPY internal/ ./
+
 RUN go mod download
 
 # Copy the source code. Note the slash at the end, as explained in
