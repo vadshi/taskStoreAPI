@@ -26,7 +26,7 @@ type TaskStore struct {
 func New() *TaskStore {
 	ts := &TaskStore{}
 
-	db, err := sql.Open("sqlite", "./tasks.db")
+	db, err := sql.Open("sqlite", "tasks.db")
 	if err != nil {
 		log.Fatal(err)
 	}
