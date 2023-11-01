@@ -7,7 +7,7 @@ WORKDIR /app
 
 # Download Go modules
 COPY go.mod go.sum ./
-RUN go get github.com/vadshi/taskStoreAPI/internal/taskstore
+
 RUN go get github.com/gorilla/mux
 RUN go mod download
 
